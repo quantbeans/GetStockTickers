@@ -12,7 +12,8 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/estepehcorlin/GetStockTickers",
-    packages=setuptools.find_packages(),
+    packages=['GetStockTickers'],
+    install_requires=['pandas', 'requests'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

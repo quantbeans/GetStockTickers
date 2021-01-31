@@ -4,7 +4,7 @@ from typing import List
 import pandas as pd
 import requests
 
-from filters import Sectors, Regions
+from GetStockTickers.filters import Sectors, Regions
 
 
 class GetStockTickers:
