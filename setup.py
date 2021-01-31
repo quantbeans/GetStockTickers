@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="GetStockTickers-estephecorlin",
-    version="1.0.1",
+    version="1.0.2",
     author="Estephe Corlin",
     author_email="estephecorlin@gmail.com",
     description="Scrape Nasdaq's Stock Screener for a daily list of tickers for the NYSE, NASDAQ amd AMEX exchanges.",

@@ -102,8 +102,6 @@ class GetStockTickers:
 
         self.logger.info(f'Returning {len(df_data)} tickers')
 
-        breakpoint()
-
         if return_full_df:
             return df_data
         else:
