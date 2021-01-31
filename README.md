@@ -15,7 +15,7 @@ pip install git+https://github.com/estepehcorlin/GetStockTickers.git
 ### Use
 Get tickers across NYSE, NASDAQ and AMEX exchanges:
 ```
-from GetStockTickers import GetStockTickers
+from GetStockTickers.GetStockTickers import GetStockTickers
 ```
 
 *get_stock_tickers* is the main method, it returns a list of tickers:
