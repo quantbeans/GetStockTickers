@@ -1,10 +1,10 @@
 ## Get Stock Tickers
 
 ### Overview
-Inspired by [get-all-tickers](https://github.com/shilewenuw/get_all_tickers)
-
 This library scrapes [Nasdaq's Stock Screener](https://www.nasdaq.com/market-activity/stocks/screener) for a daily list 
 of tickers for the NYSE, NASDAQ amd AMEX exchanges.
+
+Inspired by [get-all-tickers](https://github.com/shilewenuw/get_all_tickers)
 
 ### Download
 This library is not available on PyPi. To include it in your venv, run:
@@ -23,7 +23,7 @@ from GetStockTickers import GetStockTickers
 GetStocktickers(nyse=True, nasdaq=True, amex=True).get_stock_tickers()
 ```
 
-Return full data-set: 
+Return full data-set as dataframe: 
 symbol|name|lastsale|netchange|pctchange|volume|marketCap|country|ipoyear|industry|sector|url|exchange
 ```
 GetStocktickers().get_stock_tickers(return_full_df=True)
