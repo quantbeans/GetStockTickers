@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="GetStockTickers-estephecorlin",
+    name="GetStockTickers",
     version="1.0.3",
     author="Estephe Corlin",
     author_email="estephecorlin@gmail.com",
